@@ -1,0 +1,27 @@
+{
+    "name": "ws/content-type-menu-extension",
+    "description": "Provide an easy way to add content type in menus.",
+    "type": "bolt-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Georgeault",
+            "email": "github@wedgesama.fr"
+        }
+    ],
+    "keywords": [
+        "menu",
+        "content type"
+    ],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\WS\\ContentTypeMenuExtension\\": "src"
+        }
+    }
+}
